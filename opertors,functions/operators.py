@@ -30,3 +30,14 @@ b -= 1  # Decrement b by 1
 print("Decremented b:", b)
 # it does not change the original value of a and b, it returns a new value and assign it to a and b respectively    
 print("a + b =", a + b)
+# opertaor precedence
+result = a + b * 2  # Multiplication has higher precedence than addition
+print("Result of a + b * 2:", result)
+# using parentheses to change precedence    
+result_with_parentheses = (a + b) * 2  # Parentheses change the order of operations
+print("Result of (a + b) * 2:", result_with_parentheses)
+
+# exponents 
+# multiplications and divisions are evaluated before additions and subtractions
+result_exponents = a + b * 2 ** 3  # Exponentiation has higher precedence than multiplication and addition
+print("Result of a + b * 2 ** 3:", result_exponents)
