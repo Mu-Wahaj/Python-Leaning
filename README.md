@@ -38,7 +38,7 @@ I am currently focusing on building strong programming fundamentals and graduall
 * 🔄 Learning Python basics
 * ⏳ Upcoming: Mini projects
 
----
+--
 
 ## 🔥 Future Plans
 
