@@ -40,3 +40,5 @@ else:
     down_payment = house_price * 0.2
 print(f"Down payment: ${down_payment}")
 
+
+

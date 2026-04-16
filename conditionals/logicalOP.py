@@ -45,3 +45,16 @@ elif name_length > 50:
     print("Name must be less than 50 characters long.")
 else:
     print("Name is valid.")
+    
+    
+    ## weight converter using logical operators
+weight = int(input("Enter your weight: "))
+unit = input("Is the weight in (L)bs or (K)g? ")
+if unit == "L" or unit == "l":
+    converted_weight = weight * 0.45
+    print(f"You are {round(converted_weight, 2)} kilos.")
+elif unit == "K" or unit    == "k":
+    converted_weight = weight / 0.45
+    print(f"You are {round(converted_weight, 2)} pounds.")
+else:
+    print("Invalid unit. Please enter 'L' for pounds or 'K' for kilograms.")
