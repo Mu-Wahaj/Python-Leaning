@@ -1,0 +1,32 @@
+
+# Exe files (these will NOT be pushed)
+*.exe
+
+# Other compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# C++ compiled files
+*.out
+*.obj
+*.o
+
+# IDE files (optional but recommended)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+
+# Only allow code files (everything else is ignored)
+# But code files are automatically included since we're only excluding specific patterns
