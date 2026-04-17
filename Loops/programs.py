@@ -21,13 +21,39 @@ for i in range(1, 11):
     
     # car game using while loop
 command = ""
-while command.lower() != "quit":
-    command = input("Enter a command (start, stop, quit): ")
-    if command.lower() == "start":
-        print("Car started.")
-    elif command.lower() == "stop":
-        print("Car stopped.")
-    elif command.lower() == "quit":
-        print("Exiting the game.")
+started = False
+
+while True:
+    command = input(">").lower()
+    if command == "start":
+        if not started:
+            print("Car started...Ready to go!")
+            started = True
+        else:
+            print("Car is already started.")
+    elif command == "stop":
+        if started:
+            print("Car stopped.")
+            started = False
+        else:
+            print("Car is already stopped.")
+    elif command == "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to exit
+""")
+    elif command == "quit":
+        print("Exiting the game. Goodbye!")
+        break
     else:
-        print("Invalid command. Please enter 'start', 'stop', or 'quit'.")
+        print("Sorry, I don't understand that command.")
+
+#funtion to calculate the factorial of a number using a for loop
+def factorial(n):
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
+number = int(input("Enter a number to calculate its factorial: "))
+print(f"The factorial of {number} is {factorial(number)}.")

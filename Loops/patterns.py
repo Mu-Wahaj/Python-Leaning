@@ -21,24 +21,17 @@ for i in range(n - 2, -1, -1):
     print(" " * (n - i - 1) + "*" * (2 * i + 1))
     
     
-    ##in cpp its the dimaond pattern 
-# int n = 5;
-# for (int i = 0; i < n; i++) {
-#     for (int j = 0; j < n - i - 1; j++) {
-#         cout << " ";
-#     }
-#     for (int j = 0; j < 2 * i + 1
-#     cout << "*";
-#     cout << endl;
-# }
-# for (int i = n - 2; i >= 0; i--) {
-#     for (int j = 0; j < n - i - 1;
-#     cout << " ";
-#     for (int j = 0; j < 2 * i + 1
-#     cout << "*";
-#     cout << endl;
-
-
+# pattern 5 butterfly pattern
+n = 5
+for i in range(n):
+    print("*" * (i + 1) + " " * (2 * (n - i - 1)) + "*" * (i + 1))
+for i in range(n - 2, -1, -1):
+    print("*" * (i + 1) + " " * (2 * (n - i - 1)) + "*" * (i + 1))
     
-    
-    
+# pattern 6 hollow square pattern
+n = 5
+for i in range(n):
+    if i == 0 or i == n - 1:
+        print("*" * n)
+    else:
+        print("*" + " " * (n - 2) + "*")

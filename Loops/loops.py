@@ -40,6 +40,14 @@ for i in range(3):
 #         # code to execute for each combination of variable1 and variable2
 
    
+#nested while loops exa,ple
+i = 0
+while i < 3:
+    j = 0
+    while j < 3:
+        print(f"i: {i}, j: {j}")
+        j += 1
+    i += 1
     
     
 
