@@ -13,9 +13,7 @@ I am currently focusing on building strong programming fundamentals and graduall
 * Build problem-solving skills
 * Create small projects
 * Move towards AI & Machine Learning
-
 ---
-
 ## 📂 Contents
 
 * Basic Python programs
