@@ -28,6 +28,6 @@ greet("Bob", greeting="Hi")  # Output: Hi, Bob!
 def complte_name(first_name, last_name):
     return f"{first_name} {last_name}"
 
-full_name = complte_name("John", last_name="Doe")
+full_name = complte_name( last_name="John", first_name="Doe")
 print(full_name)  # Output: John Doe
 
