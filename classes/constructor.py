@@ -23,3 +23,13 @@ class person :
     
 person1 = person("Alice", 30)
 person1.talk()  # Output: Alice is talking.
+
+# detsucturor is a special method that is automatically called when an object of a class is destroyed. It is used to perform any cleanup actions that may be necessary when an object is no longer needed. In Python, the destructor method is defined using the __del__() method. Here's an example of a class with a destructor in Python:
+class MyClass:
+    def __init__(self, value):
+        self.value = value
+        print(f"MyClass object created with value: {self.value}")
+    def __del__(self):
+        print(f"MyClass object with value {self.value} is being destroyed.")
+obj = MyClass(10)
+del obj  # This will trigger the destructor and print the message. its is nescory to note that the destructor may not be called immediately when an object is deleted, as it depends on the garbage collection process of Python.del  is not nsecary to call the destructor, it is automatically called when the object is garbage collected.
