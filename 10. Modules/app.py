@@ -33,15 +33,12 @@ random_number = random.randint(1, 10)
 print(f"The random number generated is: {random_number}")
 
 
-#to roll a dice we can use the random module to generate a random number between 1 and 6
-import random
+
 def roll_dice():
     return random.randint(1, 6)
 dice_result = roll_dice()
 print(f"You rolled a {dice_result} on the dice.")
 
-#rol two dice and calculate the total
-import random
 def roll_two_dice():
     die1 = random.randint(1, 6)
     die2 = random.randint(1, 6)

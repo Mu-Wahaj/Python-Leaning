@@ -1,3 +1,40 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Excel temporary files
+~$*.xlsx
+~$*.xls
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.local
+
 
 # Exe files (these will NOT be pushed)
 *.exe
