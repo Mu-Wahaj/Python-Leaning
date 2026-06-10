@@ -43,4 +43,4 @@ I am currently focusing on building strong programming fundamentals and graduall
 
 ## 🤝 Connect
 
-Feel free to check my progress and suggest improvements!
+Feel free to check my progress and suggest improvements thank you!
